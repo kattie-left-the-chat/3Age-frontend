@@ -3,11 +3,9 @@
     "name": "frontend",
     "slug": "3age",
     "version": "1.0.0",
-
     "experiments": {
       "baseUrl": "/3Age-frontend"
     },
-
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,6 +23,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "db8ab5cc-a796-49e0-832c-cbf349348bdc"
+      }
+    },
+    "owner": "kattie-left-the-chat",
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-font"
+    ]
   }
 }

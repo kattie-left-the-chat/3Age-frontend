@@ -38,6 +38,8 @@ jobs:
 
       - name: Build Expo Web
         run: npx expo export --platform web
+        env:
+          EXPO_PUBLIC_API_URL: https://my.domain.to.be.added.com
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v4
